@@ -5,7 +5,7 @@ function Head() {
   return (
     <div>
       <header>
-        <h1>Is Your Birthday Lucky?</h1>
+        <h2>Is Your Birthday Lucky?</h2>
       </header>
     </div>
   )

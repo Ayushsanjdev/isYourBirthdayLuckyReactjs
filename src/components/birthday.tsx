@@ -2,15 +2,25 @@ import React, { useState } from 'react'
 
 function Birthday() {
 
-  const birthdayHandler = (e) => {
-    console.log(e.target.value);
+  const birthdayHandler = (e : any) => {
+    console.log(e.target.value)
   }
 
   return (
-    <div>
-      <input 
-        type="date" 
-        onChange={birthdayHandler} />
+    <div className="birthday-card">
+      <label> 
+        Select DOB : {' '}
+        <input 
+          type="date" 
+          onChange={birthdayHandler}/>
+      </label>      
+      <label> 
+        Lucky no : {' '}
+        <input 
+          type="number"
+          style={{width: '100px'}} />
+      </label>      
+      <button className="submit-button">Let's Find Out</button>
     </div>
   )
 }
