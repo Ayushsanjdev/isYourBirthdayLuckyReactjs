@@ -1,13 +1,17 @@
 import React, { useState } from 'react'
-import logo from './logo.svg'
 import './App.css'
+import Head from './components/head.tsx';
+import Birthday from './components/birthday.tsx';
+import Footer from './components/footer.tsx';
 
 function App() {
-  // const [count, setCount] = useState(0)
+  const [DOB, setDOB] = useState([])
 
   return (
     <div className="App">
-      <p>hello world</p>
+      <Head />
+      <Birthday/>
+      <Footer/>
     </div>
   )
 }
