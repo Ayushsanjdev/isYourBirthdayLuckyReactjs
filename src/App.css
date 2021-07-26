@@ -1,22 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap&family=Montserrat');
 
 body {
-  background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
   min-height: 100vh;
   overflow-y: hidden;
-  color: #fff;
   font-family: Poppins;
+  background-image: url('https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmlydGhkYXl8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60');
+  background-size: cover;
+  min-height: 100vh;
 }
 
 header {
   text-align: center;
   font-family: Montserrat;
+  color: #eee;
 }
 
 .card-component {
-  padding: 1rem 0.3rem ;
-  margin: 0 auto;
+  background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
+  padding: 1.2rem 0rem ;
+  margin: 10vh auto;
   max-width: 280px;
+  color: #eee;
   box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
@@ -37,7 +41,7 @@ input {
   border: outset;
   font-weight: bold;
   width: fit-content;
-  margin: 0.5rem auto;
+  margin: 0 auto;
   padding: 0.3rem;
   cursor: pointer;
   border-radius: 5px;
